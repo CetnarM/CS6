@@ -1,0 +1,7 @@
+Feature: Entering to Parts Management app
+
+Scenario: User is entering to Parts Management app
+
+Given User has been logged in
+When "Parts Management" has been clicked
+Then "Parts Management" app has been opened

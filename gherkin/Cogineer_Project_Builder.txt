@@ -1,0 +1,7 @@
+Feature: Entering to Cogineer Project Builder app
+
+Scenario: User is entering to Cogineer Project Builder app
+
+Given User has been logged in
+When "Cogineer Project Builder" has been clicked
+Then "Cogineer Project Builder" app has been opened

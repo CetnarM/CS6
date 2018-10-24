@@ -1,0 +1,8 @@
+Feature: Signing out from Eplan Cloud webpage account
+
+Scenario: User is signing out from account
+
+Given User is log in the Eplan Cloud page
+When "User" has been clicked
+And "Sign out" button has been clicked
+Then User has been sign out from account

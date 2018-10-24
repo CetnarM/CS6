@@ -1,0 +1,10 @@
+Feature: Login to Eplan Cloud webpage account
+
+Scenario: User is loging into account
+
+Given Eplan Cloud page is up and running
+When "e-mail" has been entered
+And "password" has been entered
+And "Sign in" button has been clicked
+Then User is logged in to webpage
+

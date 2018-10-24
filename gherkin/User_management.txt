@@ -1,0 +1,7 @@
+Feature: Entering to User Management app
+
+Scenario: User is entering to User Management app
+
+Given User has been logged in
+When "User Management" has been clicked
+Then "User Management" app has been opened

@@ -1,0 +1,7 @@
+Feature: Entering to Cogineer Designer app
+
+Scenario: User is entering to Cogineer Designer app
+
+Given User has been logged in
+When "Cogineer Designer" has been clicked
+Then "Cogineer Designer" app has been opened
